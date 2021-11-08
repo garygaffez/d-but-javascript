@@ -1,0 +1,34 @@
+.red {
+    border: 2px solid red;
+}
+
+.green {
+    border: 2px solid green;
+}
+
+.carre {
+    width: 150px;
+    height: 150px;
+}
+
+.carreBlue {
+    background: blue;
+}
+
+.carreRed {
+    background: red;
+}
+
+.carreGreen {
+    background: green;
+}
+
+#container {
+    background: rgb(52, 5, 66);
+}
+
+.none {
+    height: 300px;
+    width: 300px;
+    background: rgb(79, 176, 255);
+}
