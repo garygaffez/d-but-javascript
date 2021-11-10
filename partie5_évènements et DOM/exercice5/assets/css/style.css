@@ -1,0 +1,25 @@
+body {
+    background-color: grey;
+}
+
+.pink {
+    color: pink;    
+}
+
+.blue {
+    color: blue;    
+}
+
+.purple {
+    color: purple;    
+}
+
+.bold {
+    font-weight: bold;
+    color: black;
+}
+
+.italic {
+    font-style:italic ;
+    color: black;
+}
