@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chifoumi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1 class="text-center light mt-5">Bienvenue au jeu du shifoumi qui fait mal !</h1>   
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="d-flex justify-content-center mb-3 col-12">
+                <img src="assets/img/poing.jpg" class="reduce" id="Pierre" >
+                <audio src="assets/sounds/coup-de-poing.mp3" class="poing"></audio>           
+            </div>
+            <div class="d-flex justify-content-center mb-3 col">
+                <img src="assets/img/ciseaux.jpg" class="reduce" id="Feuille">
+                <audio src="assets/sounds/ciseaux.mp3" class="ciseaux"></audio>            
+            </div>
+            <div class="d-flex justify-content-center mb-3 col">
+                <img src="assets/img/claque.jpg" class="reduce" id="Ciseaux">
+                <audio src="assets/sounds/gifles.mp3" class="gifle"></audio>
+            </div>
+        </div>
+    
+
+        <div class="row">
+            <div class="col-12 d-flex justify-content-around text-center mt-5 flex-column">                
+                <div id="resultChif" class="resultat d-flex text-center align-items-center justify-content-center">
+                </div>
+                <div class="tab col-12 d-flex align-items-start justify-content-evenly ">                    
+                    <div class="countPlayer">
+                        <p>Player score</p>
+                    </div>
+                    <div class="countRobot">
+                        <p>Robot score</p>
+                    </div>
+                    <div class="countDraw">
+                        <p>Draw</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="assets/js/app.js"></script>
+</body>
+</html>
